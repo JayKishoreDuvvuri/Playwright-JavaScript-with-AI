@@ -1,0 +1,11 @@
+{
+  "module": "ESNext",
+  "esModuleInterop": true,
+  "resolveJsonModule": true,
+  "moduleResolution": "Node",
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "saucedemo-playwright-tests",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test:one": "npx playwright test tests/login.spec.js",
+    "test:headed": "echo 'Tests are configured but cannot run in WebContainer. Please run locally.'",
+    "test:ui": "echo 'Tests are configured but cannot run in WebContainer. Please run locally.'",
+    "report": " npx playwright test --reporter=html && npx playwright show-report",
+    "validate": "node tests/validate.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.24",
+    "prettier": "^3.2.5"
+  }
+}
