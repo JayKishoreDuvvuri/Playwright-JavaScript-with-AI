@@ -41,7 +41,7 @@ https://jaykishore999.blogspot.com/2025/02/playwright-test-automation-framework.
 
 ```bash
 # Run all tests
-npm run test
+npm run test:one
 
 # Run tests in headed mode
 npm run test:headed
